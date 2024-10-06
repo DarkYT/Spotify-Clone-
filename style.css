@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.left {
+    width: 25vw;
+}
+
+.right {
+    width: 75vw;
+}
+
+.container {
+    gap: 5px;
+}
+
+.home {
+    /* border-radius: 12px; */
+
+}
+
+.home ul {
+    /* margin: 12px ;
+    padding: 12px; */
+}
+
+.home ul li {
+    list-style: none;
+    display: flex;
+    padding: 12px;
+    gap: 15px;
+    width: 23px;
+
+}
+
+.library {
+    position: relative;
+    height: 70vh;
+}
+
+.yourlibrary{
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    list-style: none;
+}
+
+.songlists  {
+     /* padding: 0px 25px; */
+     overflow: inherit;
+     /* display: flex; */
+     height: 500px;
+     overflow: auto;
+}
+
+/* song card design  */
+.songlists  li {
+    
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 12px ;
+    margin:  12px ,10px;
+    
+    
+}
+.song-card{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+   background-color: transparent;
+   font: .7em sans-serif;
+
+}
+.card-info{
+    display: flex;
+    gap:  20px;
+}
+.info{
+    /* font: .7em sans-serif; */
+    width: 200px;
+}
+.playnow{
+    display: flex;
+    font-size: 10px;
+    
+}
+
+/* footer design */
+.footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer>div {
+    font-size: 12px;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 10hv; */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap: 15px;
+    width: 100%;
+}
+
+.footer2 {
+    padding: 24px;
+    gap: 15px;
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(236, 232, 228);
+
+}
+
+
+.nav {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin: 10px 10px 0px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    /* background-color: #262424;
+    color: white; */
+}
+
+.arrow {
+    /* border: 2px solid red; */
+    border-radius: 45px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #2c2c2c;
+}
+
+.button {
+    display: inline-block;
+    /* position:absolute; */
+    gap: 30px;
+    /* right: 20px; */
+}
+
+.button>button {
+    margin: 10px;
+    padding: 12px;
+    border-radius: 24px;
+
+}
+
+.signup {
+    border: none;
+    font-weight: bolder;
+    font-size: 13px;
+    background-color: transparent;
+    color: rgb(101, 98, 98);
+    gap: 20px;
+
+}
+
+.signup:hover {
+    font-size: 14px;
+    color: white;
+}
+
+.login {
+    font-weight: bolder;
+    font-size: 13px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 30px;
+    color: black;
+}
+
+.login:hover {
+    font-size: 14px;
+    padding: 17px;
+}
+
+.spotifyplalist {
+    background-color: #1d1d1d;
+    margin: 0px 10px 10px 10px;
+
+}
+
+.cardcontainere {
+    flex-wrap: wrap;
+    max-height: 65vh;
+    overflow: scroll;
+}
+
+.card {
+    /* border: 2px solid red; */
+    position: relative;
+    background-color: #2c2c2c;
+    width: 190px;
+
+}
+
+.play {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #1ed760;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 135px;
+    z-index: -1;
+    /* opacity: 0; */
+    transition: all 0.2s ease-in-out;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.card:hover .play {
+    /* opacity: 1; */
+    top: 140px;
+    z-index: 1;
+}
+
+.playbar {
+    display: flex;
+    position: fixed;
+    bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #222222ea;
+}
+.seekbar{
+    position: absolute;
+    bottom: 5px;
+    width: 80%;
+    background-color: #333333;
+    height: 10px;
+    border-radius: 20px;
+}
+.circle{
+    position: absolute;
+    top: -2px;
+    left: 0%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}

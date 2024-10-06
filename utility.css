@@ -1,0 +1,56 @@
+.m-1{
+    margin: 10px;
+}
+.m-top{
+    margin: 0, 10px;
+}
+.p-1 {
+    padding: 10px;
+}
+.p-2 {
+    padding: 20px;
+}
+.bg-gray{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.flex{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.rounded{
+    border-radius: 5px;
+}
+.img-sige{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+
+}
+.card-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Basic scrollbar style */
+::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #292828;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #535353;
+    border-radius: 3px;
+  }
+  
+  /* Hover effect on thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #535353;
+  }
