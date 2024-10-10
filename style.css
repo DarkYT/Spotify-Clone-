@@ -274,3 +274,9 @@
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
 }
+.abovebar{
+    display: flex;
+    justify-content: space-between;
+    gap: 600px;
+    color: white;
+}

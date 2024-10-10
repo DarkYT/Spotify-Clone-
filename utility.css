@@ -54,3 +54,6 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #535353;
   }
+  .pointer{
+    cursor: pointer;
+  }
